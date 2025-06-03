@@ -1,0 +1,49 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(./../images/quote.bg.jpg);
+    background-size: cover;
+}
+
+section {
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    position: relative; 
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 150px;
+}
+
+#quote {
+    font-size: 20px;
+    position: absolute; 
+    top: 250px; 
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+
+.footer {
+    margin-top: 300px; 
+}
+
+button {
+    background-color: #fff59b;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #db4040;
+}
